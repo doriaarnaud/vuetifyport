@@ -8,59 +8,59 @@
       <v-list>
         <v-list-item>
           <v-icon
-                size="large"
+                size="x-small"
                 color="#002600"
-                icon="mdi-hand-pointing-right"
-                class="mr-4"
+                icon="mdi-radiobox-marked"
+                class="mr-2"
               ></v-icon>npm package</v-list-item>
         <v-list-item>
           <v-icon
-                size="large"
+                size="x-small"
                 color="#002600"
-                icon="mdi-hand-pointing-right"
-                class="mr-4"
+                icon="mdi-radiobox-marked"
+                class="mr-2"
               ></v-icon>Axios, for API interactions</v-list-item>
         <v-list-item>
           <v-icon
-                size="large"
+                size="x-small"
                 color="#002600"
-                icon="mdi-hand-pointing-right"
-                class="mr-4"
+                icon="mdi-radiobox-marked"
+                class="mr-2"
               ></v-icon>Pinia, for state management</v-list-item>
         <v-list-item>
           <v-icon
-                size="large"
+                size="x-small"
                 color="#002600"
-                icon="mdi-hand-pointing-right"
-                class="mr-4"
+                icon="mdi-radiobox-marked"
+                class="mr-2"
               ></v-icon>Vuejs 3</v-list-item>
         <v-list-item>
           <v-icon
-                size="large"
+                size="x-small"
                 color="#002600"
-                icon="mdi-hand-pointing-right"
-                class="mr-4"
+                icon="mdi-radiobox-marked"
+                class="mr-2"
               ></v-icon>Vite</v-list-item>
         <v-list-item>
           <v-icon
-                size="large"
+                size="x-small"
                 color="#002600"
-                icon="mdi-hand-pointing-right"
-                class="mr-4"
+                icon="mdi-radiobox-marked"
+                class="mr-2"
               ></v-icon>JavaScript</v-list-item>
         <v-list-item>
           <v-icon
-                size="large"
+                size="x-small"
                 color="#002600"
-                icon="mdi-hand-pointing-right"
-                class="mr-4"
+                icon="mdi-radiobox-marked"
+                class="mr-2"
               ></v-icon>Css3</v-list-item>
         <v-list-item>
           <v-icon
-                size="large"
+                size="x-small"
                 color="#002600"
-                icon="mdi-hand-pointing-right"
-                class="mr-4"
+                icon="mdi-radiobox-marked"
+                class="mr-2"
               ></v-icon>Html5</v-list-item>
       </v-list>
   </p>

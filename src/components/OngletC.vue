@@ -2,8 +2,8 @@
 import {ref} from 'vue'
 let tabproject=ref(
 [
-    {id:0,thumb:'/projects/gamingshop_features/1.jpg',title:'Gaming Shop',link:"https://gamingshop-eta.vercel.app/",ads:'See project features'},
-    {id:1,thumb:'/projects/tictactoe_features/3.png',title:'Tic-Tac-Toe Game',link:"https://tictactoe-five-neon.vercel.app/",ads:'See project features'}
+    {id:0,thumb:'/projects/gamingshop_features/1.jpg',title:'Gaming Shop',link:"https://gamingshop-eta.vercel.app/"},
+    {id:1,thumb:'/projects/tictactoe_features/3.png',title:'Tic-Tac-Toe Game',link:"https://tictactoe-five-neon.vercel.app/"}
 ]);
 const drawer = ref(null);
 </script>
@@ -20,7 +20,7 @@ const drawer = ref(null);
                    width="200"
                  >
                  <router-link to="/">
-                   <v-img src="/projects/gamingshop_features/1.png" >
+                   <v-img src="/projects/gamingshop_features/1.png" title="See project features">
 
                    </v-img>
                  </router-link>
@@ -43,7 +43,7 @@ const drawer = ref(null);
                    width="200"
                  >
                  <router-link to="/tictactoe">
-                   <v-img src="/projects/tictactoe_features/img1.png" >
+                   <v-img src="/projects/tictactoe_features/img1.png" title="See project features">
 
                    </v-img>
                  </router-link>
