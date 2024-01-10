@@ -23,9 +23,9 @@ let projects=ref();
   </header>
 <v-card class="mt-n1">
   <v-tabs v-model="tabs" align-tabs="center" class="h-25" bg-color="#000000">
-    <v-tab :value="about">About</v-tab>
-    <v-tab :value="technologies">Technologies</v-tab>
-    <v-tab :value="projects">Projects</v-tab>
+    <v-tab :value="about" class="text-h5">About</v-tab>
+    <v-tab :value="technologies" class="text-h5">Technologies</v-tab>
+    <v-tab :value="projects" class="text-h5">Projects</v-tab>
   </v-tabs>
     <v-window v-model="tabs">
       <v-window-item value="about">

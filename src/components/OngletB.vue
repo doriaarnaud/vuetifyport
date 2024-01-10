@@ -2,11 +2,12 @@
 import {ref} from 'vue'
 let techtab=ref(
 [
-    {id:0,logo:'/logos/vuejs.JPG',title:'Vue.js',textalt:'vue3 logo'},
-    {id:1,logo:'/logos/vite.JPG',title:'Vite',textalt:'vite logo'},
-    {id:2,logo:'/logos/js.JPG',title:'JavaScript',textalt:'javascript logo'},
-    {id:3,logo:'/logos/css3.JPG',title:'css3',textalt:'css3 logo'},
-    {id:4,logo:'/logos/html5.JPG',title:'html5',textalt:'html5 logo'}
+	{id:0,logo:'/logos/vuetify.png',title:'Vuetify',textalt:'vuetify logo'},
+    {id:1,logo:'/logos/vuejs.JPG',title:'Vue.js',textalt:'vue3 logo'},
+    {id:2,logo:'/logos/vite.JPG',title:'Vite',textalt:'vite logo'},
+    {id:3,logo:'/logos/js.JPG',title:'JavaScript',textalt:'javascript logo'},
+    {id:4,logo:'/logos/css3.JPG',title:'css3',textalt:'css3 logo'},
+    {id:5,logo:'/logos/html5.JPG',title:'html5',textalt:'html5 logo'}
 ]);
 </script>
 <template>
