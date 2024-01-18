@@ -1,10 +1,10 @@
 <script setup>
   import {ref} from 'vue'
   let gamingimages=ref([
-    {images:'/projects/gamingshop_features/1.png'},
-    {images:'/projects/gamingshop_features/2.png'},
-    {images:'/projects/gamingshop_features/3.png'},
-    {images:'/projects/gamingshop_features/4.png'}
+    {images:'/projects/gamingshop_features/a.png'},
+    {images:'/projects/gamingshop_features/b.png'},
+    {images:'/projects/gamingshop_features/c.png'},
+    {images:'/projects/gamingshop_features/d.png'}
   ])
 </script>
 <template>
