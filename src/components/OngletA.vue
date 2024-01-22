@@ -13,7 +13,7 @@
                 color="#002600"
                 icon="mdi-radiobox-marked"
                 class="mr-2"
-              ></v-icon>npm package</v-list-item>
+              ></v-icon>Npm</v-list-item>
         <v-list-item>
           <v-icon
                 size="x-small"
