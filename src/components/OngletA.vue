@@ -1,11 +1,10 @@
 <template>
   <p class="ms-8 mr-4 mt-8 mb-4 text-h6">
-      I started programming with low and high level languages.
-  	I am passionate by Web technologies and I have a knowledge in Front-end Web Development. <br/>
-	All the projects shown in his dedicated tab are coded from scratch and no plugin was been used to build each components.
-  	If you have an idea about User Interface similar to these or something else, my contact is great open.<br/>
-      The tools and frameworks that I have used are these following:
-
+    Discover on this site the tools and technologies that I used in the development of user interfaces.
+    After having studied other programming languages while being self-taught many years ago, I decided to focus on the front-end of the web.<br/>
+    All the projects shown in his dedicated tab are coded from scratch and no plugin was been used to build each components at the time.
+  	If you have an idea or any project, my contact is great open.<br/>
+    Below you find the frameworks and languages that I use on a daily basis:
       <v-list>
         <v-list-item>
           <v-icon
