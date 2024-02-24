@@ -13,25 +13,7 @@ const routes = [
         // route level code-splitting
         // this generates a separate chunk (Home-[hash].js) for this route
         // which is lazy-loaded when the route is visited.
-        component: () => import('@/components/Mainvue.vue'),
-        children: [
-          {
-            path: '',
-            name: 'GamingCaroussel',
-            // route level code-splitting
-            // this generates a separate chunk (Home-[hash].js) for this route
-            // which is lazy-loaded when the route is visited.
-            component:GamingCaroussel
-          },
-          {
-            path: '/tictactoe',
-            name: 'TictactoeCaroussel',
-            // route level code-splitting
-            // this generates a separate chunk (Home-[hash].js) for this route
-            // which is lazy-loaded when the route is visited.
-            component: () => import('@/components/TictactoeCaroussel.vue'),
-          }
-        ]
+        component: () => import('@/components/Mainvue.vue')
       }
     ],
   },
