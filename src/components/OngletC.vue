@@ -136,7 +136,7 @@ function changeslidersource(id)
                  </v-progress-circular>
            </div>
 
-          <v-carousel v-if="iscrloading"
+          <v-carousel v-if="iscrloading" class="carousselcontent"
               cycle
               height="400"
               hide-delimiter-background
@@ -185,6 +185,10 @@ function changeslidersource(id)
       margin-left:auto;
       margin-right:auto;
     }
+    .carousselcontent
+    {
+      margin-top:-100px;
+    }
   }
   @media (min-width: 992px) and (max-width: 1199px)
   {
@@ -211,6 +215,10 @@ function changeslidersource(id)
     {
       margin-left:auto;
       margin-right:auto;
+    }
+    .carousselcontent
+    {
+      margin-top:-100px;
     }
   }
   @media (min-width: 768px) and (max-width: 991px)
@@ -239,6 +247,10 @@ function changeslidersource(id)
       margin-left:auto;
       margin-right:auto;
     }
+    .carousselcontent
+    {
+      margin-top:-100px;
+    }
   }
   @media (min-width: 576px) and (max-width: 767px)
   {
@@ -266,6 +278,10 @@ function changeslidersource(id)
       margin-left:auto;
       margin-right:auto;
     }
+    .carousselcontent
+    {
+      margin-top:-100px;
+    }
   }
   @media (max-width: 575px)
   {
@@ -292,6 +308,10 @@ function changeslidersource(id)
     {
       margin-left:auto;
       margin-right:auto;
+    }
+    .carousselcontent
+    {
+      margin-top:-100px;
     }
   }
 
