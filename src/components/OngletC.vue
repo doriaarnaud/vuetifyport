@@ -34,12 +34,22 @@ let gamingimages=ref([
         iscrloading.value=true;
         return (valeur.value = 0)
       }
-      valeur.value += 25
-    }, 1000)
+      valeur.value += 20
+    }, 300)
   }
 onMounted
 {
   mainslider=gamingimages.value;
+  iscircleloading.value=true;
+  iscrloading.value=false;
+  interval = setInterval(() => {
+    if (valeur.value === 100) {
+      iscircleloading.value=false;
+      iscrloading.value=true;
+      return (valeur.value = 0)
+    }
+    valeur.value += 20
+  }, 300)
 }
 function changeslidersource(id)
 {
@@ -165,8 +175,8 @@ function changeslidersource(id)
     }
     .circleloadercontainer
     {
-      width:100px;
-      height:100px;
+      width:120px;
+      height:120px;
       margin-left:auto;
       margin-right:auto;
     }
@@ -192,8 +202,8 @@ function changeslidersource(id)
     }
     .circleloadercontainer
     {
-      width:100px;
-      height:100px;
+      width:120px;
+      height:120px;
       margin-left:auto;
       margin-right:auto;
     }
@@ -219,8 +229,8 @@ function changeslidersource(id)
     }
     .circleloadercontainer
     {
-      width:100px;
-      height:100px;
+      width:120px;
+      height:120px;
       margin-left:auto;
       margin-right:auto;
     }
@@ -246,8 +256,8 @@ function changeslidersource(id)
     }
     .circleloadercontainer
     {
-      width:100px;
-      height:100px;
+      width:120px;
+      height:120px;
       margin-left:auto;
       margin-right:auto;
     }
@@ -273,8 +283,8 @@ function changeslidersource(id)
     }
     .circleloadercontainer
     {
-      width:100px;
-      height:100px;
+      width:120px;
+      height:120px;
       margin-left:auto;
       margin-right:auto;
     }

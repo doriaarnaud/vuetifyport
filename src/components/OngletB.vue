@@ -1,5 +1,5 @@
 <script setup>
-import {ref} from 'vue'
+import {ref,onMounted} from 'vue'
 let techtab=ref(
 [
     {id:0,logo:'/logos/vuejs.JPG',title:'Vue.js',textalt:'vue3 logo'},
@@ -9,20 +9,42 @@ let techtab=ref(
     {id:4,logo:'/logos/css3.JPG',title:'css3',textalt:'css3 logo'},
     {id:5,logo:'/logos/html5.JPG',title:'html5',textalt:'html5 logo'}
 ]);
+let istechloader=ref();
+let techimages=ref(false);
+function stoploading()
+{
+  istechloader.value=false;
+  techimages.value=true;
+}
+onMounted
+{
+  istechloader.value=true;
+  techimages.value=false;
+  setTimeout(()=>
+  {
+      stoploading();
+  },2000);
+}
 </script>
 <template>
- <div class="onglet2">
-            <div class="onglet2content">
-                <div class="techimages">
-                    <div class="techcontent ma-4" v-for="images in techtab" :key="images.id">
-                        <img :src="images.logo" :alt="images.textalt" width="100" height="100"/>
-                        <div class="imagetitle">
-                            <h3>{{ images.title }}</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+  <div class="techloadercontainer" v-if="istechloader">
+    <v-progress-circular class="techloader"
+          indeterminate
+          color="#002600"
+    ></v-progress-circular>
+  </div>
+ <div class="onglet2" v-if="techimages">
+      <div class="onglet2content">
+          <div class="techimages">
+              <div class="techcontent ma-4" v-for="images in techtab" :key="images.id">
+                  <img :src="images.logo" :alt="images.textalt" width="100" height="100"/>
+                  <div class="imagetitle">
+                      <h3>{{ images.title }}</h3>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
 </template>
 
 <script>
@@ -34,6 +56,20 @@ let techtab=ref(
     .onglet2
     {
         margin-top:0px;
+    }
+    .techloadercontainer
+    {
+      width:100px;
+      margin-left:auto;
+      margin-right:auto;
+      height:500px;
+    }
+    .techloader
+    {
+      width:80px;
+      height:80px;
+      margin-left:auto;
+      margin-right:auto;
     }
     .onglet2content
     {
@@ -77,6 +113,20 @@ let techtab=ref(
     {
         margin-top:0px;
     }
+    .techloadercontainer
+    {
+      width:100px;
+      margin-left:auto;
+      margin-right:auto;
+      height:500px;
+    }
+    .techloader
+    {
+      width:80px;
+      height:80px;
+      margin-left:auto;
+      margin-right:auto;
+    }
     .onglet2content
     {
         position:relative;
@@ -118,6 +168,20 @@ let techtab=ref(
     .onglet2
     {
         margin-top:0px;
+    }
+    .techloadercontainer
+    {
+      width:100px;
+      margin-left:auto;
+      margin-right:auto;
+      height:500px;
+    }
+    .techloader
+    {
+      width:80px;
+      height:80px;
+      margin-left:auto;
+      margin-right:auto;
     }
     .onglet2content
     {
@@ -161,6 +225,20 @@ let techtab=ref(
     {
         margin-top:0px;
     }
+    .techloadercontainer
+    {
+      width:100px;
+      margin-left:auto;
+      margin-right:auto;
+      height:500px;
+    }
+    .techloader
+    {
+      width:80px;
+      height:80px;
+      margin-left:auto;
+      margin-right:auto;
+    }
     .onglet2content
     {
         position:relative;
@@ -202,6 +280,20 @@ let techtab=ref(
     .onglet2
     {
         margin-top:0px;
+    }
+    .techloadercontainer
+    {
+      width:100px;
+      margin-left:auto;
+      margin-right:auto;
+      height:500px;
+    }
+    .techloader
+    {
+      width:80px;
+      height:80px;
+      margin-left:auto;
+      margin-right:auto;
     }
     .onglet2content
     {
