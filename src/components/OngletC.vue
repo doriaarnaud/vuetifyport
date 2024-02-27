@@ -87,7 +87,7 @@ function changeslidersource(id)
                    </v-img>
 
                 <p class="text-h6 mt-4 mb-4" id="ptitle">Gaming shop</p>
-                <v-btn class="mb-16 ms-7" color="#004200" href="https://gamingshop-eta.vercel.app" target="blank">
+                <v-btn class="mb-16 ms-7" color="#004200" href="https://gamingshop.doriaarnaud.online/" target="blank">
                   Visit project
                 </v-btn>
                 </v-sheet>
@@ -111,7 +111,7 @@ function changeslidersource(id)
                    </v-img>
 
                 <p class="text-h6 mt-4 mb-4" id="ptitle">Tic-Tac-Toe game</p>
-                <v-btn class="mb-16 ms-7" color="#004200" href="https://tictactoe-five-neon.vercel.app/" target="blank">
+                <v-btn class="mb-16 ms-7" color="#004200" href="https://tic-tac-toe.doriaarnaud.online/" target="blank">
                   Visit project
                 </v-btn>
                 </v-sheet>
