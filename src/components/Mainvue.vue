@@ -66,21 +66,21 @@ function changeslidersource(id)
     <div class="navigationbar d-flex justify-end">
       <ul>
         <li>
-          <a href="#presentationtarget">Home</a>
+          <a href="#presentation">Home</a>
         </li>
         <li>
-          <a href="#abouttarget">About</a>
+          <a href="#about">About</a>
         </li>
         <li>
-          <a href="#featuredtarget">Projects</a>
+          <a href="#featuredproject">Projects</a>
         </li>
         <li>
-          <a href="#contacttarget">Contact</a>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
     </div>
   </div>
-  <h1 id="presentationtarget"></h1>
+  <h1 id="presentation"></h1>
     <div class="presentation h-auto">
       <div class="presentationcontent">
         <div class="avatar">
@@ -93,7 +93,7 @@ function changeslidersource(id)
          </div>
        </div>
     </div>
-  <h1 id="abouttarget"></h1>
+  <h1 id="about"></h1>
     <div class="aboutcontainer">
       <v-card>
         <h4 class="text-h4 ms-5 mt-5">About</h4>
@@ -134,7 +134,7 @@ function changeslidersource(id)
           </p>
       </v-card>
     </div>
-    <h1 id="featuredtarget"></h1>
+    <h1 id="featuredproject"></h1>
     <div class="featuredprojects">
       <v-card>
         <h4 class="text-h4 ms-5 mt-5 h-auto">Featured Projects</h4>
@@ -230,7 +230,7 @@ function changeslidersource(id)
            </div>
       </v-card>
     </div>
-    <h1 id="contacttarget"></h1>
+    <h1 id="contact"></h1>
   <div class="contactcontainer">
     <div class="contactcontent">
         <h4 class="text-h4 mt-16 ms-8">
