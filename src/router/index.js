@@ -1,6 +1,5 @@
 // Composables
 import { createRouter, createWebHistory } from 'vue-router'
-import GamingCaroussel from '@/components/GamingCaroussel.vue'
 
 const routes = [
   {
