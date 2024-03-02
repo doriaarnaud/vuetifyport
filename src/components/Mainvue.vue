@@ -5,10 +5,41 @@ import About from '@/components/About.vue'
 import Projects from '@/components/Projects.vue'
 import Technologies from '@/components/Technologies.vue'
 import Contact from '@/components/Contact.vue'
+let presentationloaded=ref(false);
+let aboutloaded=ref(false);
+let projectloaded=ref(false);
+let techloaded=ref(false);
+let contactloaded=ref(false);
+let footerloaded=ref(false);
+let isloadedpage=ref();
 function scroll(refName)
 {
   const element=document.getElementById(refName);
   element.scrollIntoView({ behavior: "smooth"});
+}
+function stoploading()
+{
+  isloadedpage.value=false;
+  presentationloaded.value=true;
+  aboutloaded.value=true;
+  projectloaded.value=true;
+  techloaded.value=true;
+  contactloaded.value=true;
+  footerloaded.value=true;
+}
+onMounted
+{
+  isloadedpage.value=true;
+  presentationloaded.value=false;
+  aboutloaded.value=false;
+  projectloaded.value=false;
+  techloaded.value=false;
+  contactloaded.value=false;
+  footerloaded.value=false;
+  setTimeout(()=>
+  {
+      stoploading();
+  },2000);
 }
 </script>
 <template>
@@ -24,29 +55,35 @@ function scroll(refName)
        class="btnav text-h6" @click="scroll('contact')">Contact</v-btn>
   </v-app-bar>
   <h1 id="presentation"></h1>
-    <Presentation>
+  <div class="techloadercontainer" v-if="isloadedpage">
+      <v-progress-circular class="techloader"
+            indeterminate
+            color="#002600"
+      ></v-progress-circular>
+    </div>
+    <Presentation v-if="presentationloaded">
 
 
     </Presentation>
   <h1 id="about"></h1>
-    <About>
+    <About v-if="aboutloaded">
 
     </About>
   <h1 id="featuredproject"></h1>
-    <Projects>
+    <Projects v-if="projectloaded">
 
     </Projects>
 
-    <Technologies>
+    <Technologies v-if="techloaded">
 
     </Technologies>
 
     <h1 id="contact"></h1>
-    <Contact>
+    <Contact v-if="contactloaded">
 
     </Contact>
 
-<v-footer color="#000000" class="pagefooter">
+<v-footer color="#000000" class="pagefooter" v-if="footerloaded">
 
 </v-footer>
 </template>
@@ -70,6 +107,21 @@ function scroll(refName)
       color:#ffffff;
       text-decoration:underline;
     }
+    .techloadercontainer
+    {
+      width:100px;
+      margin-left:auto;
+      margin-right:auto;
+      height:500px;
+    }
+    .techloader
+    {
+      margin-top:20px;
+      width:80px;
+      height:80px;
+      margin-left:auto;
+      margin-right:auto;
+    }
   }
   @media (min-width: 992px) and (max-width: 1199px)
   {
@@ -78,6 +130,21 @@ function scroll(refName)
       background-color: #000000;
       color:#ffffff;
       text-decoration:underline;
+    }
+    .techloadercontainer
+    {
+      width:100px;
+      margin-left:auto;
+      margin-right:auto;
+      height:500px;
+    }
+    .techloader
+    {
+      margin-top:20px;
+      width:80px;
+      height:80px;
+      margin-left:auto;
+      margin-right:auto;
     }
   }
   @media (min-width: 768px) and (max-width: 991px)
@@ -88,6 +155,21 @@ function scroll(refName)
       color:#ffffff;
       text-decoration:underline;
     }
+    .techloadercontainer
+    {
+      width:100px;
+      margin-left:auto;
+      margin-right:auto;
+      height:500px;
+    }
+    .techloader
+    {
+      margin-top:20px;
+      width:80px;
+      height:80px;
+      margin-left:auto;
+      margin-right:auto;
+    }
   }
   @media (min-width: 576px) and (max-width: 767px)
   {
@@ -96,6 +178,21 @@ function scroll(refName)
       background-color: #000000;
       color:#ffffff;
       text-decoration:underline;
+    }
+    .techloadercontainer
+    {
+      width:100px;
+      margin-left:auto;
+      margin-right:auto;
+      height:500px;
+    }
+    .techloader
+    {
+      margin-top:20px;
+      width:80px;
+      height:80px;
+      margin-left:auto;
+      margin-right:auto;
     }
   }
   @media (max-width: 575px)
@@ -106,6 +203,21 @@ function scroll(refName)
       color:#ffffff;
       width:90px;
       text-decoration:underline;
+    }
+    .techloadercontainer
+    {
+      width:100px;
+      margin-left:auto;
+      margin-right:auto;
+      height:500px;
+    }
+    .techloader
+    {
+      margin-top:20px;
+      width:80px;
+      height:80px;
+      margin-left:auto;
+      margin-right:auto;
     }
   }
 </style>
