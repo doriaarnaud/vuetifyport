@@ -5,26 +5,24 @@ import About from '@/components/About.vue'
 import Projects from '@/components/Projects.vue'
 import Technologies from '@/components/Technologies.vue'
 import Contact from '@/components/Contact.vue'
+function scroll(refName)
+{
+  const element=document.getElementById(refName);
+  element.scrollIntoView({ behavior: "smooth"});
+}
 </script>
 <template>
-  <div class="navigationbarcontainer">
-    <div class="navigationbar d-flex justify-end">
-      <ul>
-        <li>
-          <a href="#presentation">Home</a>
-        </li>
-        <li>
-          <a href="#about">About</a>
-        </li>
-        <li>
-          <a href="#featuredproject">Projects</a>
-        </li>
-        <li>
-          <a href="#contact">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </div>
+  <v-app-bar class="navigationbar" color="#000000">
+    <v-spacer></v-spacer>
+    <v-btn
+       class="btnav text-h6" @click="scroll('presentation')">Home</v-btn>
+    <v-btn
+       class="btnav text-h6" @click="scroll('about')">About</v-btn>
+    <v-btn
+       class="btnav text-h6" @click="scroll('featuredproject')">Projects</v-btn>
+    <v-btn
+       class="btnav text-h6" @click="scroll('contact')">Contact</v-btn>
+  </v-app-bar>
   <h1 id="presentation"></h1>
     <Presentation>
 
@@ -66,141 +64,48 @@ import Contact from '@/components/Contact.vue'
 <style>
   @media (min-width: 1200px)
   {
-    .navigationbarcontainer
+    .btnav
     {
       background-color: #000000;
-      width:100%;
-      height:100px;
-      position:fixed;
-      z-index:9999999999999999;
-    }
-    .navigationbar
-    {
-      float:right;
-      margin-right:50px;
-      margin-top:30px;
-    }
-    .navigationbar ul li
-    {
-      display:inline;
-    }
-    .navigationbar a
-    {
-      text-decoration:none;
-      font-size:1.4em;
-      margin:10px;
       color:#ffffff;
+      text-decoration:underline;
     }
   }
   @media (min-width: 992px) and (max-width: 1199px)
   {
-    .navigationbarcontainer
+    .btnav
     {
       background-color: #000000;
-      width:100%;
-      height:100px;
-      position:fixed;
-      z-index:9999999999999999;
-    }
-    .navigationbar
-    {
-      float:right;
-      margin-right:50px;
-      margin-top:30px;
-    }
-    .navigationbar ul li
-    {
-      display:inline;
-    }
-    .navigationbar a
-    {
-      text-decoration:none;
-      font-size:1.4em;
-      margin:10px;
       color:#ffffff;
+      text-decoration:underline;
     }
   }
   @media (min-width: 768px) and (max-width: 991px)
   {
-    .navigationbarcontainer
+    .btnav
     {
       background-color: #000000;
-      width:100%;
-      height:100px;
-      position:fixed;
-      z-index:9999999999999999;
-    }
-    .navigationbar
-    {
-      float:right;
-      margin-right:50px;
-      margin-top:30px;
-    }
-    .navigationbar ul li
-    {
-      display:inline;
-    }
-    .navigationbar a
-    {
-      text-decoration:none;
-      font-size:1.4em;
-      margin:10px;
       color:#ffffff;
+      text-decoration:underline;
     }
   }
   @media (min-width: 576px) and (max-width: 767px)
   {
-    .navigationbarcontainer
+    .btnav
     {
       background-color: #000000;
-      width:100%;
-      height:100px;
-      position:fixed;
-      z-index:9999999999999999;
-    }
-    .navigationbar
-    {
-      width:420px;
-      margin-left:20%;
-      margin-top:30px;
-    }
-    .navigationbar ul li
-    {
-      display:inline;
-    }
-    .navigationbar a
-    {
-      text-decoration:none;
-      font-size:1.5em;
-      margin:10px;
       color:#ffffff;
+      text-decoration:underline;
     }
   }
   @media (max-width: 575px)
   {
-    .navigationbarcontainer
+    .btnav
     {
       background-color: #000000;
-      width:100%;
-      height:100px;
-      position:fixed;
-      z-index:9999999999999999;
-    }
-    .navigationbar
-    {
-      margin-top:30px;
-      float:left;
-    }
-    .navigationbar ul li
-    {
-      display:inline;
-    }
-    .navigationbar a
-    {
-      text-decoration:none;
-      font-size:1.2em;
-      margin:10px;
       color:#ffffff;
+      width:90px;
+      text-decoration:underline;
     }
   }
 </style>
