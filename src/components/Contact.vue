@@ -8,7 +8,7 @@
           Let's work together on Your next project
         </h4>
         <h6 class="text-subtitle-1 ms-8">
-          If you have an idea or any project, my contact is great open.
+          If you have an idea, my contact is great open.
         </h6>
         <v-btn color="#002600" class="ms-8 mb-8 mt-8" size="large" href="mailto:doriaarnaud55@gmail.com" target="blank">
             Contact
