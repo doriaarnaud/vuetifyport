@@ -53,7 +53,6 @@
     .aboutcontainer
     {
       margin-top:50px;
-      width:1200px;
       margin-left:auto;
       margin-right:auto;
     }

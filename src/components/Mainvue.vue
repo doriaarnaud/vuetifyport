@@ -54,38 +54,43 @@ onMounted
     <v-btn
        class="btnav text-h6" @click="scroll('contact')">Contact</v-btn>
   </v-app-bar>
-  <h1 id="presentation"></h1>
   <div class="techloadercontainer" v-if="isloadedpage">
       <v-progress-circular class="techloader"
             indeterminate
             color="#002600"
       ></v-progress-circular>
     </div>
+  <v-container id="presentation">
     <Presentation v-if="presentationloaded">
 
 
     </Presentation>
-  <h1 id="about"></h1>
+  </v-container>
+
+  <v-container id="about">
     <About v-if="aboutloaded">
 
     </About>
-  <h1 id="featuredproject"></h1>
+  </v-container>
+
+  <v-container id="featuredproject">
     <Projects v-if="projectloaded">
 
     </Projects>
+  </v-container>
 
-    <Technologies v-if="techloaded">
+  <Technologies v-if="techloaded">
 
-    </Technologies>
-
-    <h1 id="contact"></h1>
-    <Contact v-if="contactloaded">
+  </Technologies>
+  <v-container id="contact" v-if="contactloaded">
+    <Contact >
 
     </Contact>
+  </v-container>
 
-<v-footer color="#000000" class="pagefooter" v-if="footerloaded">
+  <v-footer color="#000000" class="pagefooter" v-if="footerloaded">
 
-</v-footer>
+  </v-footer>
 </template>
 
 

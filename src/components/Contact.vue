@@ -1,5 +1,5 @@
 <script setup>
-  
+
 </script>
 <template>
   <div class="contactcontainer">
@@ -10,7 +10,7 @@
         <h6 class="text-subtitle-1 ms-8">
           If you have an idea, my contact is great open.
         </h6>
-        <v-btn color="#002600" class="ms-8 mb-8 mt-8" size="large" href="mailto:doriaarnaud55@gmail.com" target="blank">
+        <v-btn color="#002600" class="ms-8 mb-8 mt-8" size="large" href="mailto:online.doriaarnaud@gmail.com" target="blank">
             Contact
         </v-btn>
     </div>
@@ -25,9 +25,7 @@
   {
     .contactcontainer
     {
-      background-color: #191919;
-      min-height:200px;
-      padding-top:50px;
+      margin-top:50px;
     }
     .contactcontent
     {
@@ -45,9 +43,7 @@
   {
     .contactcontainer
     {
-      background-color: #191919;
-      min-height:200px;
-      padding-top:50px;
+      margin-top:50px;
     }
     .contactcontent
     {
@@ -65,9 +61,7 @@
   {
     .contactcontainer
     {
-      background-color: #191919;
-      min-height:200px;
-      padding-top:50px;
+      margin-top:50px;
     }
     .contactcontent
     {
@@ -85,9 +79,7 @@
   {
     .contactcontainer
     {
-      background-color: #191919;
-      min-height:200px;
-      padding-top:50px;
+      margin-top:50px;
     }
     .contactcontent
     {
@@ -105,9 +97,7 @@
   {
     .contactcontainer
     {
-      background-color: #191919;
-      min-height:200px;
-      padding-top:50px;
+      margin-top:50px;
     }
     .contactcontent
     {
