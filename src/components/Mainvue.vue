@@ -39,7 +39,7 @@ onMounted
   setTimeout(()=>
   {
       stoploading();
-  },2000);
+  },1500);
 }
 </script>
 <template>
