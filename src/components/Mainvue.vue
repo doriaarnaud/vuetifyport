@@ -107,14 +107,22 @@ onMounted
 <style>
   @media (min-width: 1200px)
   {
-    #presentationcontainer,#aboutcontainer
+    #presentationcontainer
     {
-      background-color:#09090d;
+      background-color:#101019;
       color:#ffffff;
     }
-    #featuredcontainer,#contactcontainer
+    #aboutcontainer
     {
       background-color:#09090d;
+    }
+    #featuredcontainer
+    {
+      background-color:#09090d;
+    }
+    #contactcontainer
+    {
+      background-color:#101019;
     }
     .btnav
     {
@@ -140,14 +148,22 @@ onMounted
   }
   @media (min-width: 992px) and (max-width: 1199px)
   {
-    #presentationcontainer,#aboutcontainer
+    #presentationcontainer
     {
-      background-color:#09090d;
+      background-color:#101019;
       color:#ffffff;
     }
-    #featuredcontainer,#contactcontainer
+    #aboutcontainer
     {
       background-color:#09090d;
+    }
+    #featuredcontainer
+    {
+      background-color:#09090d;
+    }
+    #contactcontainer
+    {
+      background-color:#101019;
     }
     .btnav
     {
@@ -173,15 +189,23 @@ onMounted
   }
   @media (min-width: 768px) and (max-width: 991px)
   {
-    #presentationcontainer,#aboutcontainer
-    {
-      background-color:#09090d;
-      color:#ffffff;
-    }
-    #featuredcontainer,#contactcontainer
-    {
-      background-color:#09090d;
-    }
+   #presentationcontainer
+   {
+     background-color:#101019;
+     color:#ffffff;
+   }
+   #aboutcontainer
+   {
+     background-color:#09090d;
+   }
+   #featuredcontainer
+   {
+     background-color:#09090d;
+   }
+   #contactcontainer
+   {
+     background-color:#101019;
+   }
     .btnav
     {
       background-color: #000000;
@@ -206,14 +230,22 @@ onMounted
   }
   @media (min-width: 576px) and (max-width: 767px)
   {
-    #presentationcontainer,#aboutcontainer
+    #presentationcontainer
     {
-      background-color:#09090d;
+      background-color:#101019;
       color:#ffffff;
     }
-    #featuredcontainer,#contactcontainer
+    #aboutcontainer
     {
       background-color:#09090d;
+    }
+    #featuredcontainer
+    {
+      background-color:#09090d;
+    }
+    #contactcontainer
+    {
+      background-color:#101019;
     }
     .btnav
     {
@@ -239,14 +271,22 @@ onMounted
   }
   @media (max-width: 575px)
   {
-    #presentationcontainer,#aboutcontainer
+    #presentationcontainer
     {
-      background-color:#09090d;
+      background-color:#101019;
       color:#ffffff;
     }
-    #featuredcontainer,#contactcontainer
+    #aboutcontainer
     {
       background-color:#09090d;
+    }
+    #featuredcontainer
+    {
+      background-color:#09090d;
+    }
+    #contactcontainer
+    {
+      background-color:#101019;
     }
     .btnav
     {

@@ -37,7 +37,6 @@ let techtab=ref(
       position:relative;
       width:100%;
       padding-top:0px;
-      width:1200px;
       margin-left:auto;
       margin-right:auto;
     }
