@@ -88,49 +88,55 @@ function changeslidersource(id)
 </script>
 <template>
   <div class="featuredprojects">
-      <v-card>
+      <v-card color="#09090d">
         <h4 class="text-h4 ms-5 mt-5 h-auto">Featured Projects</h4>
         <div class="projs">
-          <div class="houseproj ma-5 pa-5">
-            <v-img :src="housesrc"
-                   title="See project features"
-                   alt="house image thumbs">
-            </v-img>
-            <p class="text-h6 mt-6 mb-4" id="ptitle">House Showcase</p>
-             <v-btn color="#004200" href="https://house.doriaarnaud.online/" target="blank">
-               Visit project
-             </v-btn>
-             <v-btn class="mt-4" color="#b1b1b1" @click="changeslidersource(1)">
-               See details...
-             </v-btn>
-          </div>
-          <div class="gamingproj ma-5 pa-5">
-            <v-img :src="gtsrc"
-                   title="See project features"
-                   alt="gaming shop thumb">
-            </v-img>
-            <p class="text-h6 mt-4 mb-4" id="ptitle">Gaming shop</p>
-             <v-btn color="#004200" href="https://gamingshop.doriaarnaud.online/" target="blank">
-               Visit project
-             </v-btn>
-             <v-btn class="mt-4" color="#b1b1b1" @click="changeslidersource(2)">
-               See details...
-             </v-btn>
-          </div>
-          <div class="ticproj ma-5 pa-5">
-            <v-img :src="tctsrc"
-                      title="See project features"
-                      alt="tic-tac-toe thumb">
-               </v-img>
+          <v-card color="#373b4f" class="mt-2">
+            <div class="houseproj ma-5 pa-5">
+              <v-img :src="housesrc"
+                     title="See project features"
+                     alt="house image thumbs">
+              </v-img>
+              <p class="text-h6 mt-6 mb-4" id="ptitle">House Showcase</p>
+               <v-btn color="#b90000" href="https://house.doriaarnaud.online/" target="blank">
+                 Visit project
+               </v-btn>
+               <v-btn class="mt-4" color="#000000" @click="changeslidersource(1)">
+                 See details...
+               </v-btn>
+            </div>
+          </v-card>
+          <v-card color="#373b4f" class="ms-2 mt-2">
+            <div class="gamingproj ma-5 pa-5">
+              <v-img :src="gtsrc"
+                     title="See project features"
+                     alt="gaming shop thumb">
+              </v-img>
+              <p class="text-h6 mt-4 mb-4" id="ptitle">Gaming shop</p>
+               <v-btn color="#b90000" href="https://gamingshop.doriaarnaud.online/" target="blank">
+                 Visit project
+               </v-btn>
+               <v-btn class="mt-4" color="#000000" @click="changeslidersource(2)">
+                 See details...
+               </v-btn>
+            </div>
+          </v-card>
+          <v-card color="#373b4f" class="ms-2 mt-2">
+            <div class="ticproj ma-5 pa-5">
+              <v-img :src="tctsrc"
+                        title="See project features"
+                        alt="tic-tac-toe thumb">
+                 </v-img>
 
-            <p class="text-h6 mt-4 mb-4" id="ptitle">Tic-Tac-Toe game</p>
-            <v-btn color="#004200" href="https://tic-tac-toe.doriaarnaud.online/" target="blank">
-              Visit project
-            </v-btn>
-            <v-btn class="mt-4" color="#b1b1b1" @click="changeslidersource(3)">
-              See details...
-            </v-btn>
-          </div>
+              <p class="text-h6 mt-4 mb-4" id="ptitle">Tic-Tac-Toe game</p>
+              <v-btn color="#b90000" href="https://tic-tac-toe.doriaarnaud.online/" target="blank">
+                Visit project
+              </v-btn>
+              <v-btn class="mt-4" color="#000000" @click="changeslidersource(3)">
+                See details...
+              </v-btn>
+            </div>
+          </v-card>
         </div>
       </v-card>
   </div>

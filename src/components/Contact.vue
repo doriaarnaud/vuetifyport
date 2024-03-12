@@ -10,7 +10,7 @@
         <h6 class="text-subtitle-1 ms-8">
           If you have an idea, my contact is great open.
         </h6>
-        <v-btn color="#002600" class="ms-8 mb-8 mt-8" size="large" href="mailto:online.doriaarnaud@gmail.com" target="blank">
+        <v-btn color="#b90000" class="ms-8 mb-8 mt-8" size="large" href="mailto:online.doriaarnaud@gmail.com" target="blank">
             Contact
         </v-btn>
     </div>
@@ -34,7 +34,7 @@
       margin-right:auto;
       border:1px solid #9f9f9f;
       min-height: 200px;
-      background-color:#666666;
+      background-color:#000000;
       border-radius:10px;
       color:#ffffff;
     }
@@ -52,7 +52,7 @@
       margin-right:auto;
       border:1px solid #9f9f9f;
       min-height: 200px;
-      background-color:#666666;
+      background-color:#000000;
       border-radius:10px;
       color:#ffffff;
     }
@@ -70,7 +70,7 @@
       margin-right:auto;
       border:1px solid #9f9f9f;
       min-height: 200px;
-      background-color:#666666;
+      background-color:#000000;
       border-radius:10px;
       color:#ffffff;
     }
@@ -88,7 +88,7 @@
       margin-right:auto;
       border:1px solid #9f9f9f;
       min-height: 200px;
-      background-color:#666666;
+      background-color:#000000;
       border-radius:10px;
       color:#ffffff;
     }
@@ -106,7 +106,7 @@
       margin-right:auto;
       border:1px solid #9f9f9f;
       min-height: 200px;
-      background-color:#666666;
+      background-color:#000000;
       border-radius:10px;
       color:#ffffff;
     }

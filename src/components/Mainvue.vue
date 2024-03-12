@@ -60,37 +60,38 @@ onMounted
             color="#002600"
       ></v-progress-circular>
     </div>
-  <v-container id="presentation">
-    <Presentation v-if="presentationloaded">
+    <div id="presentationcontainer" v-if="presentationloaded">
+      <v-container id="presentation">
+        <Presentation >
 
 
-    </Presentation>
-  </v-container>
+        </Presentation>
+      </v-container>
+    </div>
+    <div id="aboutcontainer" v-if="aboutloaded">
+      <v-container id="about">
+        <About >
 
-  <v-container id="about">
-    <About v-if="aboutloaded">
+        </About>
+      </v-container>
+    </div>
+    <div id="featuredcontainer" v-if="projectloaded">
+      <v-container id="featuredproject">
+        <Projects >
 
-    </About>
-  </v-container>
+        </Projects>
+        <Technologies v-if="techloaded">
 
-  <v-container id="featuredproject">
-    <Projects v-if="projectloaded">
+        </Technologies>
+      </v-container>
+    </div>
+    <div id="contactcontainer" v-if="contactloaded">
+      <v-container id="contact" >
+        <Contact >
 
-    </Projects>
-  </v-container>
-
-  <Technologies v-if="techloaded">
-
-  </Technologies>
-  <v-container id="contact" v-if="contactloaded">
-    <Contact >
-
-    </Contact>
-  </v-container>
-
-  <v-footer color="#000000" class="pagefooter" v-if="footerloaded">
-
-  </v-footer>
+        </Contact>
+      </v-container>
+    </div>
 </template>
 
 
@@ -106,6 +107,15 @@ onMounted
 <style>
   @media (min-width: 1200px)
   {
+    #presentationcontainer,#aboutcontainer
+    {
+      background-color:#09090d;
+      color:#ffffff;
+    }
+    #featuredcontainer,#contactcontainer
+    {
+      background-color:#09090d;
+    }
     .btnav
     {
       background-color: #000000;
@@ -130,6 +140,15 @@ onMounted
   }
   @media (min-width: 992px) and (max-width: 1199px)
   {
+    #presentationcontainer,#aboutcontainer
+    {
+      background-color:#09090d;
+      color:#ffffff;
+    }
+    #featuredcontainer,#contactcontainer
+    {
+      background-color:#09090d;
+    }
     .btnav
     {
       background-color: #000000;
@@ -154,6 +173,15 @@ onMounted
   }
   @media (min-width: 768px) and (max-width: 991px)
   {
+    #presentationcontainer,#aboutcontainer
+    {
+      background-color:#09090d;
+      color:#ffffff;
+    }
+    #featuredcontainer,#contactcontainer
+    {
+      background-color:#09090d;
+    }
     .btnav
     {
       background-color: #000000;
@@ -178,6 +206,15 @@ onMounted
   }
   @media (min-width: 576px) and (max-width: 767px)
   {
+    #presentationcontainer,#aboutcontainer
+    {
+      background-color:#09090d;
+      color:#ffffff;
+    }
+    #featuredcontainer,#contactcontainer
+    {
+      background-color:#09090d;
+    }
     .btnav
     {
       background-color: #000000;
@@ -202,6 +239,15 @@ onMounted
   }
   @media (max-width: 575px)
   {
+    #presentationcontainer,#aboutcontainer
+    {
+      background-color:#09090d;
+      color:#ffffff;
+    }
+    #featuredcontainer,#contactcontainer
+    {
+      background-color:#09090d;
+    }
     .btnav
     {
       background-color: #000000;
