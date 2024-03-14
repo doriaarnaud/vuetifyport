@@ -216,19 +216,16 @@ function changeslidersource(id)
     .featuredprojects .houseproj
     {
         width:300px;
-        border:2px solid #a0a0a0;
         border-radius: 10px;
     }
     .featuredprojects .gamingproj
     {
         width:300px;
-        border:2px solid #a0a0a0;
         border-radius: 10px;
     }
     .featuredprojects .ticproj
     {
         width:300px;
-        border:2px solid #a0a0a0;
         border-radius: 10px;
     }
     .projs
@@ -266,19 +263,16 @@ function changeslidersource(id)
     .featuredprojects .houseproj
     {
         width:300px;
-        border:2px solid #a0a0a0;
         border-radius: 10px;
     }
     .featuredprojects .gamingproj
     {
         width:300px;
-        border:2px solid #a0a0a0;
         border-radius: 10px;
     }
     .featuredprojects .ticproj
     {
         width:300px;
-        border:2px solid #a0a0a0;
         border-radius: 10px;
     }
     .projs
@@ -316,19 +310,16 @@ function changeslidersource(id)
     .featuredprojects .houseproj
     {
         width:300px;
-        border:2px solid #a0a0a0;
         border-radius: 10px;
     }
     .featuredprojects .gamingproj
     {
         width:300px;
-        border:2px solid #a0a0a0;
         border-radius: 10px;
     }
     .featuredprojects .ticproj
     {
         width:300px;
-        border:2px solid #a0a0a0;
         border-radius: 10px;
     }
     .projs
@@ -366,19 +357,16 @@ function changeslidersource(id)
     .featuredprojects .houseproj
     {
         width:300px;
-        border:2px solid #a0a0a0;
         border-radius: 10px;
     }
     .featuredprojects .gamingproj
     {
         width:300px;
-        border:2px solid #a0a0a0;
         border-radius: 10px;
     }
     .featuredprojects .ticproj
     {
         width:300px;
-        border:2px solid #a0a0a0;
         border-radius: 10px;
     }
     .projs
@@ -416,19 +404,16 @@ function changeslidersource(id)
     .featuredprojects .houseproj
     {
         width:300px;
-        border:2px solid #a0a0a0;
         border-radius: 10px;
     }
     .featuredprojects .gamingproj
     {
         width:300px;
-        border:2px solid #a0a0a0;
         border-radius: 10px;
     }
     .featuredprojects .ticproj
     {
         width:300px;
-        border:2px solid #a0a0a0;
         border-radius: 10px;
     }
     .projs
