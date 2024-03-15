@@ -13,7 +13,7 @@ let tictactoetitle=ref("Tic-tact-toe Game");
 let houselink=ref("https://house.doriaarnaud.online/");
 let gaminglink=ref("https://gamingshop.doriaarnaud.online/");
 let tictactoelink=ref("https://tic-tac-toe.doriaarnaud.online/");
-let housetext=ref("A House Showcase Website example for exploring Apartments, Villas for rent, sale and a cta button");
+let housetext=ref("A House Showcase Website example for exploring Apartments, Villas for rent, sale and a cta button. All the images are just examples and intentionally distorted but not a bugs.");
 let gamingtext=ref("A gaming shop website example using Vue.js, Pinia, with search bar and cart management features.");
 let tictactoetext=ref("A tic-tac-toe game using Vue.js with menu, loading progress and automatic re-drawing features.");
 let housethumbsrc=ref("/projects/house_features/img1.png");
@@ -98,7 +98,7 @@ function changeslidersource(id)
                      alt="house image thumbs">
               </v-img>
               <p class="text-h6 mt-6 mb-4" id="ptitle">House Showcase</p>
-               <v-btn color="#b90000" href="https://house.doriaarnaud.online/" target="blank">
+               <v-btn color="#ffffff" href="https://house.doriaarnaud.online/" target="blank">
                  Visit project
                </v-btn>
                <v-btn class="mt-4" color="#000000" @click="changeslidersource(1)">
@@ -113,7 +113,7 @@ function changeslidersource(id)
                      alt="gaming shop thumb">
               </v-img>
               <p class="text-h6 mt-4 mb-4" id="ptitle">Gaming shop</p>
-               <v-btn color="#b90000" href="https://gamingshop.doriaarnaud.online/" target="blank">
+               <v-btn color="#ffffff" href="https://gamingshop.doriaarnaud.online/" target="blank">
                  Visit project
                </v-btn>
                <v-btn class="mt-4" color="#000000" @click="changeslidersource(2)">
@@ -129,7 +129,7 @@ function changeslidersource(id)
                  </v-img>
 
               <p class="text-h6 mt-4 mb-4" id="ptitle">Tic-Tac-Toe game</p>
-              <v-btn color="#b90000" href="https://tic-tac-toe.doriaarnaud.online/" target="blank">
+              <v-btn color="#ffffff" href="https://tic-tac-toe.doriaarnaud.online/" target="blank">
                 Visit project
               </v-btn>
               <v-btn class="mt-4" color="#000000" @click="changeslidersource(3)">
@@ -234,7 +234,6 @@ function changeslidersource(id)
       align-content: center;
       justify-content: center;
       flex-wrap: wrap;
-      text-align: center;
       margin-top: 50px;
     }
   }
@@ -281,7 +280,6 @@ function changeslidersource(id)
       align-content: center;
       justify-content: center;
       flex-wrap: wrap;
-      text-align: center;
       margin-top: 50px;
     }
   }
