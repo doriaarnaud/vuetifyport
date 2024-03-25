@@ -91,6 +91,14 @@ onMounted
 
         </Contact>
       </v-container>
+      <p id="cp" class="text-subtitle-1">
+        copyright <v-icon
+              size="x-small"
+              color="#ffffff"
+              icon="mdi-copyright"
+              class="ms-1 mb-1 mr-1"
+              ></v-icon> Arnaud Doria 2024
+      </p>
     </div>
 </template>
 
@@ -145,6 +153,11 @@ onMounted
       margin-left:auto;
       margin-right:auto;
     }
+    p#cp
+    {
+      text-align:center;
+      color:#ffffff;
+    }
   }
   @media (min-width: 992px) and (max-width: 1199px)
   {
@@ -185,6 +198,11 @@ onMounted
       height:80px;
       margin-left:auto;
       margin-right:auto;
+    }
+    p#cp
+    {
+      text-align:center;
+      color:#ffffff;
     }
   }
   @media (min-width: 768px) and (max-width: 991px)
@@ -227,6 +245,11 @@ onMounted
       margin-left:auto;
       margin-right:auto;
     }
+    p#cp
+    {
+      text-align:center;
+      color:#ffffff;
+    }
   }
   @media (min-width: 576px) and (max-width: 767px)
   {
@@ -267,6 +290,11 @@ onMounted
       height:80px;
       margin-left:auto;
       margin-right:auto;
+    }
+    p#cp
+    {
+      text-align:center;
+      color:#ffffff;
     }
   }
   @media (max-width: 575px)
@@ -309,6 +337,11 @@ onMounted
       height:80px;
       margin-left:auto;
       margin-right:auto;
+    }
+    p#cp
+    {
+      text-align:center;
+      color:#ffffff;
     }
   }
 </style>
