@@ -9,7 +9,7 @@
       </div>
        <div class="presentationtext">
            <h1 class="mt-8 text-h3">Hello, I'm</h1>
-           <h1 class="mt-2 text-h3">Arnaud Doria</h1>
+           <h1 class="mt-2 text-h3">Doria Arnaud</h1>
            <h4 class="mt-2 text-subtitle-3">Front-end Web Developer</h4>
        </div>
      </div>

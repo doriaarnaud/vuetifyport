@@ -97,7 +97,7 @@ onMounted
               color="#ffffff"
               icon="mdi-copyright"
               class="ms-1 mb-1 mr-1"
-              ></v-icon> Arnaud Doria 2024
+              ></v-icon> Doria Arnaud 2024
       </p>
     </div>
 </template>
